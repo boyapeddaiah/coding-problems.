@@ -91,7 +91,7 @@ import java.util.Scanner;
 class Str{
     public static void main(String[]args){
         Scanner a=new Scanner(System.in);
-        String var=a.Scanner();
+        String var=a.nextLine();
         String rev="";
         int b=var.length()-1;
         for (int i=b;i>=0;i--){
@@ -103,4 +103,5 @@ class Str{
         }
         else{System.out.println("it's not a palindrome.");}
     }
+
 }
